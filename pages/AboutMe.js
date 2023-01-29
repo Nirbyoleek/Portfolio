@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Profile from "../assets/images.jpg";
 
 const About = () => {
 	return (
@@ -8,7 +7,7 @@ const About = () => {
 				About Me
 			</div>
 			<div className="flex flex-row text-center">
-				<div className="mr-[20vw] ml-[10vw]">Profile Pic</div>
+				<div className="mr-[20vw] ml-[11vw]">Profile Pic</div>
 				<div className="subpixel-antialiased text-2xl text-left w-[45vw]">
 					{/* Details */}
 					Hi! I’m Nirbyoleek Das, a full-stack web developer and software
