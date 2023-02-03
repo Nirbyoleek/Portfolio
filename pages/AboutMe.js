@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 const About = () => {
 	return (
-		<div className="mx-[8vw] mb-20">
+		<div className="mx-[8vw] mb-20 mt-[5vh]">
 			<div className=" mb-20 text-5xl font-extrabold  items-center justify-items-center text-center">
 				About Me
 			</div>

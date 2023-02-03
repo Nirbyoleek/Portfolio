@@ -5,13 +5,17 @@ import TypeAnimation from "react-type-animation";
 
 function HomePage() {
 	return (
-		<div className=" w-full h-[85vh]">
-			<main className="flex">
+		<div className=" w-full h-[85vh] ">
+			<main className="flex mb-[2vh]">
 				{/* Sidebar Contacts */}
 
 				<div className="mt-[30vh] space-y-4">
-					<AiOutlineGithub className="w-10 h-8 mb-10 text-[#53ED6A]" />
-					<FaLinkedinIn className="w-10 h-8 text-[#53ED6A]" />
+					<a>
+						<AiOutlineGithub className="w-10 h-8 mb-10 text-[#53ED6A] transition ease-in-out delay-50 cursor-pointer hover:-translate-y-1 hover:scale-110 hover:font-bold duration-300" />
+					</a>
+					<a>
+						<FaLinkedinIn className="w-10 h-8 text-[#53ED6A] transition ease-in-out delay-50 cursor-pointer hover:-translate-y-1 hover:scale-110 hover:font-bold duration-300" />
+					</a>
 				</div>
 
 				{/* NAME AND DETAILS */}
@@ -37,11 +41,15 @@ function HomePage() {
 					/>
 				</div>
 
-				{/* DETAILS CONSTRUCTOR */}
-				{/* <DetailsConstructor /> */}
+				{/* Portfolio Button */}
 
 				{/*  */}
 			</main>
+			<div className="w-[18vw]   text-center m-[15vh] mx-[42vw] ">
+				<button className="border border-black rounded-lg font-semibold px-8 py-4 text-xl transition ease-in-out delay-100 cursor-pointer hover:-translate-y-1 hover:scale-110  hover:bg-[#53ED6A] duration-300">
+					View Portfolio
+				</button>
+			</div>
 		</div>
 	);
 }
